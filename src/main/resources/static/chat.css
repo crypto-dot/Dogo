@@ -1,0 +1,17 @@
+body 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.data 
+{
+	width:50%;
+	text-align: center;
+	border: 1px solid rgb(202 202 202);
+	border-radius: 0.5rem;
+}
+body > div.data:not(:last-child) 
+{
+	margin-bottom: 5px;
+}
